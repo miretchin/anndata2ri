@@ -23,14 +23,8 @@ def reproduced():
 	as(allen, 'SingleCellExperiment')
 	''')
 
-	assay_names = se.assayNames(sce_allen)
-	assays = [
-		numpy2ri.rpy2py(assay).T
-		for assay in (se.assay(sce_allen, str(n)) for n in assay_names)
-	]
-	exprs, layers = assays[0], dict(zip(assay_names[1:], assays[1:]))
-	del assay_names, assays; gc()
-
+	exprs = numpy2ri.rpy2py(se.assay(sce_allen, 1)).T
+	gc()
 	print(exprs)
 
 
