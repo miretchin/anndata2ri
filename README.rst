@@ -6,6 +6,8 @@
 AnnData ↭ SingleCellExperiment
 ==============================
 
+This is nearly identical to the version found in the theislab repository. The difference is it installs using setup.py so that `pip` works properly on Broad Institute's Terra servers.
+
 RPy2 converter from AnnData_ to SingleCellExperiment_ and back.
 
 You can for example use it to process your data using both Scanpy_ and Seurat_, as described in this `example notebook`_
