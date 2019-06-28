@@ -15,7 +15,7 @@ setup(
     'Topic :: Scientific/Engineering :: Bio-Informatics'
     ],
     
-    packages = find_packages();
+    packages = find_packages(),
     
     install_requires=[
         "rpy2 >= 3.0.0.dev", # 3.0.1 fixes crashes!
