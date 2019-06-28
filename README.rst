@@ -33,8 +33,6 @@ You can install a locally checked out version with ``pip`` or ``flit``:
 
    cd anndata2ri
    pip install .
-   # or
-   flit install
 
 Usage from Python
 -----------------
