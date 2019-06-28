@@ -25,7 +25,7 @@ Install it directly from GitHub via ``pip`` (version 19.0 or higher).
 
 .. code-block:: bash
 
-   pip install git+https://github.com/flying-sheep/anndata2ri.git
+   pip install git+https://github.com/miretchin/anndata2ri.git
 
 You can install a locally checked out version with ``pip`` or ``flit``:
 
