@@ -27,7 +27,7 @@ Install it directly from GitHub via ``pip`` (version 19.0 or higher).
 
    pip install git+https://github.com/miretchin/anndata2ri.git
 
-You can install a locally checked out version with ``pip`` or ``flit``:
+You can install a locally checked out version with ``pip``:
 
 .. code-block:: bash
 
